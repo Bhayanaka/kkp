@@ -1,0 +1,35 @@
+.table_byr{
+	border-collapse:collapse;
+	-webkit-box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+	box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
+	font-family:arial;
+	font-size:12px;
+	border:1px solid #f2f2f2;
+	color:gray;
+	border-radius:5px;
+	}
+	
+.table_byr tr td h4{font-size:20px;margin:0px 10px 20px 10px}
+.table_byr tbody tr td{padding:10px}
+.table_byr tfoot tr td{padding:20px 10px 0px 10px}
+
+	.td_head{background:orange;
+	font-family:'arial black', arial;
+	font-weight:bold;
+	text-align:center;
+	color:white;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+	padding-top:15px;
+	padding-bottom:0px;
+	
+	}
+	
+	.td_orange{background:orange url(img/orange_pattern.png);border-radius:5px 5px 0px 0px;}
+	.td_ijo{background:green url(img/green_pattern.png);border-left}
+	
+	.table_byr tbody tr td{border-top:1px solid #f4f4f4}
+	
+	.table_byr tfoot tr td{border-top:1px solid #d4d4d4;}
+	
+	.table_byr tfoot{background:#eaeaea;color:#828282;text-shadow:-1px -1px white;text-align:center;border-radius:0px 0px 5px 5px ;}

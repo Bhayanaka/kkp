@@ -1,0 +1,130 @@
+
+#nav {
+	margin: 0;
+	padding: 0px 0px 0;
+	border:solid 0px red;
+	
+}
+#nav li {
+	margin: 0 3px;
+	padding: 0 0 8px;
+	float: left;
+	position: relative;
+	list-style: none;
+}
+
+
+/* main level link */
+#nav a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	margin: 0;
+	background:#32a200 ;
+	font-family:arial;
+	font-size:14px;
+	text-shadow: 0 1px 1px rgba(0,0,0, .5);
+}
+#nav a:hover {
+	color: #fff;
+}
+
+
+
+#nav a.m1, #nav ul.m1{background:#1e84e2;}
+#nav a.m2, #nav ul.m2{background:#33b354;}
+#nav a.m3, #nav ul.m3{background:#f1a400;}
+#nav a.m4, #nav ul.m4{background:#732fa5;}
+#nav a.m5, #nav ul.m5{background:#1eb1cc;}
+#nav a.m6, #nav ul.m6{background:#5fcf22;}
+
+/* main level link hover */
+#nav .current a, #nav li:hover > a {
+	
+	color: #fff;
+	border-bottom: solid 0px #f8f8f8;
+	text-shadow: 0 1px 0 #000000,1;
+}
+
+/* sub levels link hover */
+#nav ul li:hover a, #nav li:hover li a {
+	background: none;
+	border: none;
+	color: #fff;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#nav ul a:hover {
+	background:rgba(0,0,0,0.15)!important;
+	color: #fff !important;
+	text-shadow: 0 1px 0 #000000,1;
+}
+
+/* dropdown */
+#nav li:hover > ul {
+	display: block;
+}
+
+/* level 2 list */
+#nav ul {
+	display: none;
+
+	margin: 0;
+	padding: 0;
+	width: 220px;
+	position: absolute;
+	top: 57x;
+	left: 0;
+	/* background: rgba(0,0,0,0.5); */
+	/* background: #38b200; */
+	border: solid 0px #2e9100;
+
+	 -webkit-box-shadow: 0 0px 20px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0px 20px rgba(0,0,0,0.5);
+	box-shadow: 0 0px 20px rgba(0,0,0,0.5); 
+}
+#nav ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul a {
+	font-weight: normal;
+	text-shadow: 0 1px 0 #000000,1;
+}
+
+/* level 3+ list */
+#nav ul ul {
+	left: 220px;
+	top: 5px;
+}
+
+/* rounded corners of first and last link */
+#nav ul li:first-child > a {
+	
+}
+#nav ul li:last-child > a {
+}
+
+/* clearfix */
+#nav:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#nav {
+	display: inline-block;
+} 
+html[xmlns] #nav {
+	display: block;
+}
+ 
+* html #nav {
+	height: 1%;
+}
