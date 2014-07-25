@@ -1,0 +1,3 @@
+config/config.php
+libs/*
+admin/config/config.php
